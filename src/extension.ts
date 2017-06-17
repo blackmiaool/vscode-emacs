@@ -9,15 +9,12 @@ export function activate(context: vscode.ExtensionContext): void {
 
             // Edit
             "C-k", "C-w", "M-w", "C-y", "C-x_C-o",
-            "C-x_u", "C-/",
-
-            // R-Mode
-            "C-x_r"
+            "C-x_u",
         ],
         cursorMoves: string[] = [
             "cursorUp", "cursorDown", "cursorLeft", "cursorRight",
             "cursorHome", "cursorEnd",
-            "cursorWordLeft", "cursorWordRight",
+            "cursorWordEndLeft", "cursorWordEndRight",
             "cursorPageDown", "cursorPageUp",
             "cursorTop", "cursorBottom"
         ];

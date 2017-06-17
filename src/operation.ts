@@ -38,15 +38,8 @@ export class Operation {
                 this.editor.undo();
                 this.editor.setStatusBarMessage("Undo!");
             },
-            "C-/": () => {
-                this.editor.undo();
-                this.editor.setStatusBarMessage("Undo!");
-            },
             'C-g': () => {
                 this.editor.setStatusBarMessage("Quit");
-            },
-            "C-x_r": () => {
-                this.editor.setRMode();
             },
         };
     }

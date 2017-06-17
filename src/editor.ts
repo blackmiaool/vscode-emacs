@@ -17,6 +17,8 @@ export class Editor {
     private registersStorage: { [key:string] : RegisterContent; };
 
     constructor() {
+        console.log('my3we4'); 
+        
         this.killRing = '';
         this.isKillRepeated = false;
         this.keybindProgressMode = KeybindProgressMode.None;
