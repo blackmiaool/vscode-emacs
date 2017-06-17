@@ -2,7 +2,7 @@
   "name": "vscode-emacs",
   "displayName": "Emacs Keymap",
   "description": "emacs like extension for vscode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "hiro-sun",
   "homepage": "https://github.com/hiro-sun/vscode-emacs",
   "repository": {
